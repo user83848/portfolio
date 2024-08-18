@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .services-section {
+            padding: 50px 20px;
+            background-color: #05054a;
+            color: #fff;
+            text-align: center;
+        }
+
+        .services-section h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #2b89e2;
+        }
+
+        .services-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #ddd;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-box {
+            background-color: #2b89e2;
+            border-radius: 10px;
+            padding: 30px;
+            width: 280px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .service-box img {
+            width: 60px;
+            margin-bottom: 20px;
+        }
+
+        .service-box h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .service-box p {
+            font-size: 16px;
+            color: #f0f0f0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8b7dd2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #6c59b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="services-section">
+        <h1>Frontend Developer Services</h1>
+        <p>I offer a range of frontend development services to help you build modern, responsive, and user-friendly websites.</p>
+        <div class="services-container">
+
+            <div class="service-box">
+                
+                <h3>Responsive Design</h3>
+                <p>Creating websites that look great on all devices, from desktops to smartphones.</p>
+            </div>
+
+            <div class="service-box">
+               
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive and engaging user interfaces to provide the best user experience.</p>
+            </div>
+
+            <div class="service-box">
+                
+                <h3>Performance Optimization</h3>
+                <p>Improving website loading speed and performance for a seamless user experience.</p>
+            </div>
+
+            <div class="service-box">
+              
+                <h3>Cross-Browser Compatibility</h3>
+                <p>Ensuring your website functions correctly across all major web browsers.</p>
+            </div>
+
+        </div>
+        <a href="/contact" class="btn">Get in Touch</a>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> shiv-developer portfolio
+
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(5, 5, 74);
+            color: aliceblue;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(3, 4, 38);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(127, 127, 235);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .rightSection img {
+            width: 55%;
+            margin: 25px 100px;
+
+        }
+
+        .leftSection {
+            width: 35px;
+            font-size: 3rem;
+            margin: 80px 0;
+            text-align: center;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: rgb(139, 125, 210);
+            color: beige;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 110px;
+
+        }
+
+        .purple {
+            color: rgb(43, 137, 226);
+
+
+        }
+
+        .gray {
+            color: gray;
+            font-size: 12px;
+        }
+
+        #element {
+            color: rgb(14, 231, 235);
+        }
+
+        .secondSection {
+            margin: auto;
+            max-width: 80vw;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.10rem;
+            color: white;
+            margin-left: 0
+        }
+
+        .secondSection .box {
+            background-color: rgb(227, 237, 245);
+            margin: 50px 0;
+            height: 2px;
+            width: 80vw;
+            display: flex;
+
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+
+        }
+
+        .image_top {
+            width: 33px;
+            top: -35px;
+            left: -4px;
+            position: relative;
+
+        }
+
+        .vertical-tittle {
+            position: relative;
+            top: 65px;
+            width: 120px;
+            font-size: 15px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            width: 170px;
+            font-size: 10px;
+
+            color: gray;
+        }
+
+        footer {
+            display: flex;
+            background-color: rgba(184, 184, 219, 0.5);
+            height: 190px;
+            margin-top: 40vh
+        }
+
+        .footerr {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+            padding: auto;
+        }
+
+        .footer-third div ul {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+            padding: auto;
+            top: -00px;
+            left: 500;
+            position: relative;
+        }
+
+        .footerr ul {
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        .footerr>div {
+            width: 123px;
+        }
+
+        .thirdSection {
+            
+            max-width: 41vw;
+            height: 20px;
+        }
+
+        .thirdSection h1 {
+            max-width: 21vw;
+            height: 5vh;
+            margin-left: 150px;
+            font-size: 19px;
+            color: white;
+        }
+
+        .thirdSection .boxes {
+            background-color: rgb(5, 5, 74);
+            margin: 32px 0;
+            height: 68 px;
+            width: 15vw;
+            display: flex;
+            justify-content: center;
+            margin-left: 300px;
+        }
+
+        .thirdSection .btn1 {
+            padding: 14px;
+            background-color: rgb(139, 125, 210);
+            color: beige;
+            border: 3px solid white;
+            border-radius: 20px;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 18px;
+            margin-left: 12px;
+            font-style: none;
+
+        }
+
+
+        .profile-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-photo {
+            width: 226px;
+            height: 253px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 25px;
+            margin-left: 50px;
+            margin-top: 211p
+        }
+
+
+
+
+        h1 {
+            font-size: 24px;
+            margin-left: 68px;
+            color: black;
+        }
+
+        p {
+
+            color: #777;
+            margin-top: 25px;
+            margin-left: -15;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<header>
+    <nav>
+        <div class="left"> Shiv's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home </a></li>
+                <li><a href="about.html"> About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection"> Hi, my name is <span class="purple"> Shiv jee singh</span>
+                and i am a
+                <div>"Mern stack developer" </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">
+                        <a href="https://www.linkedin.com/in/shiv-jee-singh-a902b4253" target="_blank">LinkedIn</a>
+                    </button>
+                    <button class="btn"> <a href="https://github.com/user83848" target="_blank">GitHub</a> </button>
+
+                </div>
+            </div>
+            <div class="profile-container">
+                <img src="kkkkkkkk.jpg" alt="Profile Photo" class="profile-photo">
+                <h1>Shiv jee singh</h1>
+                <p>As a dedicated Full Stack Developer, I specialize in developing robust and scalable products using
+                    full-stack Go Lang, leveraging its features and adaptability to build high-performance solutions. My
+                    expertise lies in creating backend platform components capable of handling high throughput while
+                    achieving low latency, ensuring the efficiency and reliability of the systems I develop.
+
+                    With a strong foundation in HTML, CSS, JavaScript, Node.js, and MongoDB, I excel in building highly
+                    reliable and scalable applications. I thrive in fast-paced, collaborative environments, consistently
+                    delivering high-quality work within tight deadlines. My passion for programming drives me to make a
+                    meaningful impact, and I am always eager to learn and engage with new technology stacks to stay
+                    ahead of the curve.
+
+                    I am committed to continuous learning and growth, always striving to enhance my skills and
+                    contribute innovative solutions to complex problems. My goal is to develop products that not only
+                    meet but exceed expectations, making a significant impact in every project I undertake.</p>
+            </div>
+
+
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <spam class="gray">What i have done so far </spam>
+            <h1> Past Experience </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image_top" src="hhh.png">
+                    <div class="vertical-tittle">
+                        HTML developer (2018-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        As an HTML developer with 2 years of experience, I specialize<br>
+                        in crafting clean, responsive,<br> and
+                        efficient web pages using HTML5, CSS3, and JavaScript.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="py.png">
+                    <div class="vertical-tittle">
+                        python(2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        With 2 years of experience in Python, I have developed and
+                        maintained scalable applications,
+                        My skills include automating tasks, writing clean code,
+                        and collaborating on projects to enhance functionality and performance.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="csss.png">
+                    <div class="vertical-tittle">
+                        CSS(2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Two years of CSS experience involves crafting responsive, visually appealing layouts, mastering
+                        Flexbox and Grid, ensuring cross-browser compatibility, optimizing for performance, and
+                        implementing advanced animations and transitions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="js.png">
+                    <div class="vertical-tittle">
+                        JavaScript (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        With 2 years of experience in JavaScript,
+                        I have built dynamic and interactive web applications using frameworks like React and Vue.js.
+                        I’m skilled in ES6+ features, asynchronous programming, and integrating APIs.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="react.png">
+                    <div class="vertical-tittle">
+                        react.js (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+
+                        A year of React.js experience includes developing dynamic,
+                        responsive web applications, optimizing components for performance, integrating APIs, and
+                        utilizing state management libraries like Redux for efficient data handlingA year of React.js
+                        experience includes developing dynamic, responsive web applications, optimizing components for
+                        performance, integrating APIs,
+                        and utilizing state management libraries like Redux for efficient data handling
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="cc.png">
+                    <div class="vertical-tittle">
+                        c++ dsa (2022-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        With 2 years of experience in C++ and data structures and algorithms (DSA),
+                        I have implemented efficient algorithms, optimized code performance,
+                        and solved complex problems. My expertise includes working with dynamic data structures,
+                        algorithmic problem-solving,.
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+
+        </section>
+    </main>
+    <section class="thirdSection">
+
+        <h1> Certificate</h1>
+        <div class="boxes">
+            <button class="btn1">
+                <a href="index2.html" target="_blank">Certificate1</a>
+            </button>
+            <button class="btn1">
+                <a href="index2.html" target="_blank">Certificate1</a>
+            </button>
+            <button class="btn1">
+                <a href="index4.html" target="_blank">Certificate3</a>
+            </button>
+            <button class="btn1">
+                <a href="index5.html" target="_blank">Certificate4</a>
+            </button>
+
+        </div>
+    </section>
+
+
+    </div>
+
+    <footer>
+        <div class="flex">
+            <div class="footerr">
+                <h3>Shiv developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>&copy; 2024 Shiv jee singh. All rights reserved.</li>
+                    <li>term&condition</li>
+                    <li>www.shivportfolio.com
+                </ul>
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['<....code>//=.></|/', '  A web developer', '&amp; graphic designer', '"welcome to software developer ecosystem"'],
+        typeSpeed: 50,
+    });
+</script>
+</body>
+</body>
+
+</html>
